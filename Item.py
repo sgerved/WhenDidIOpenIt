@@ -21,6 +21,9 @@ def createTables():
     db.connect()
     db.create_tables([Owner, Item], True)
 
+'''
+delete tables
+'''
 def deleteTables():
     db.connect()
     db.drop_tables([Owner, Item])
